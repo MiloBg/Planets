@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url(img/moving-galaxy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+/*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+*/
+}
+
+h1 {
+    text-align: center;
+    padding-top: 34px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.planets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sun-img {
+    width: 300px;
+    height: auto;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+    cursor: pointer;
+}
+
+.mercury-img {
+    width: 100px;
+    height: auto;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+    cursor: pointer;
+}
+
+.venus-img {
+    width: 90px;
+    height: auto;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+    cursor: pointer;
+}
+
+.earth-img {
+    width: 120px;
+    height: auto;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+    cursor: pointer;
+}
+
+.mars-img {
+    width: 110px;
+    height: auto;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+    cursor: pointer;
+}
+
+.asteroids-img {
+    width: 230px;
+}
+
+.text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.hover {
+    transform: scale(1.2);
+}
