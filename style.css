@@ -91,12 +91,6 @@ h1 {
     font-weight: bold;
 }
 
-/*
-.description {
-    visibility: hidden;
-}
-*/
-
 .hover {
     transform: scale(1.2);
 }
@@ -110,7 +104,7 @@ article {
     text-align: center;
 }
 
-article>p {
+article > p {
     padding-top: 34px;
 }
 
