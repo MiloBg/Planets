@@ -51,14 +51,14 @@ h1 {
 }
 
 .mercury-img {
-    width: 100px;
+    width: 60px;
     height: auto;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
     cursor: pointer;
 }
 
 .venus-img {
-    width: 90px;
+    width: 100px;
     height: auto;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
     cursor: pointer;
@@ -91,10 +91,32 @@ h1 {
     font-weight: bold;
 }
 
+/*
 .description {
     visibility: hidden;
 }
+*/
 
 .hover {
     transform: scale(1.2);
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+article {
+    text-align: center;
+}
+
+article>p {
+    padding-top: 34px;
+}
+
+footer {
+    float: right;
+    padding-bottom: 22px;
+    padding-top: 34px;
+    padding-right: 30px;
 }
