@@ -3,6 +3,7 @@ const mercury = document.querySelector('.mercury-img');
 const venus = document.querySelector('.venus-img');
 const earth = document.querySelector('.earth-img');
 const mars = document.querySelector('.mars-img');
+const asteroids = document.querySelector('.asteroids-img');
 
 sun.addEventListener('mouseenter', function(){
     this.classList.add('hover');
@@ -41,5 +42,13 @@ mars.addEventListener('mouseenter', function(){
 });
 
 mars.addEventListener('mouseleave', function(){
+    this.classList.remove('hover');
+});
+
+asteroids.addEventListener('mouseenter', function(){
+    this.classList.add('hover');
+});
+
+asteroids.addEventListener('mouseleave', function(){
     this.classList.remove('hover');
 });
