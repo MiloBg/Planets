@@ -11,15 +11,6 @@ body {
     background-image: url(img/moving-galaxy.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    
-/*
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
-*/
 }
 
 h1 {
@@ -89,6 +80,11 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight: bold;
+}
+
+.sun-description, .mercury-description, .venus-description, .earth-description, .mars-description, .asteroids-description {
+    margin-top: 14px;
+    visibility: hidden;
 }
 
 .hover {
